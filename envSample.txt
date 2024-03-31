@@ -1,3 +1,3 @@
-IMAGGA_Api_Key = ''
-IMAGGA_Api_Secret = ''
-OpenAIapiKey= '' 
+IMAGGA_API_KEY = ''
+IMAGGA_API_SECRET = ''
+OPENAI_API_KEY = '' 
