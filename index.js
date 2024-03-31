@@ -2,9 +2,9 @@ import OpenAI from "openai";
 import got from 'got';
 import 'dotenv/config'
 
-const imaggaApiKey = process.env.IMAGGA_Api_Key;
-const imaggaApiSecret = process.env.IMAGGA_Api_Secret;
-const openai = new OpenAI({ apiKey: process.env.OpenAIapiKey});
+const imaggaApiKey = process.env.IMAGGA_API_KEY;
+const imaggaApiSecret = process.env.IMAGGA_API_SECRET;
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY});
 
 async function getKeywordsFromImage(imageUrl) {
     try {
